@@ -9,3 +9,5 @@ step 4 - created 'models' folder, and model/file for car. required mongoose, cre
 step 5 - created controller folder and cars_controller file. made index and create functions. refactored routes to point to controller and functions. the res.json to view json.
 
 step 6 - created views, partials, and car folder, as well as the layout.ejs and the form.ejs. Filled out layout.ejs and form.ejs, and refactored the controller to render the views instead of json. Ran npm install <'modules'> --save again, in order to create dependencies in the package.json file. Created the app.set and app.engine lines 14-16 in app.js. Also, created line 18, but is commented out for the time being. App is working locally.
+
+step 7 - created public and stylesheets folders, added main.css file. Filled in css file with code.
