@@ -2,3 +2,5 @@ step 1 - npm init, npm install (dependencies) --save, set variables on top of ap
 
 step 2 - Created config folder, routes folder, and car_routes.js.  Added app.use for routes in app.js & required routes file. In car_routes.js, wrote initial 'get' function for index, and wrote in express.Router(), and module.exports at the bottom. ref: http://expressjs.com/en/guide/routing.html
 
+step 3 - deploy to heroku, ref: https://github.com/ga-students/WDI_LA_20/tree/master/work/07-week/12_heroku-node-deployment-lesson
+
