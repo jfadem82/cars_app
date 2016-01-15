@@ -1,8 +1,11 @@
 var express = require('express'), 
-	carRouter = express.Router()
+	carRouter = express.Router(),
+	carsController = require('../../controllers/cars_controller')
 
-carRouter.get('/', function(){
-	console.log('Getting Index')
-})
+carRouter.route('/')
+	.get(carsController.index)
+	.post(carsController.create)
+
+
 
 module.exports = carRouter
