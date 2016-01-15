@@ -4,3 +4,4 @@ step 2 - Created config folder, routes folder, and car_routes.js.  Added app.use
 
 step 3 - deploy to heroku, ref: https://github.com/ga-students/WDI_LA_20/tree/master/work/07-week/12_heroku-node-deployment-lesson
 
+step 4 - created 'models' folder, and model/file for car. required mongoose, created carSchema, & module.exports
